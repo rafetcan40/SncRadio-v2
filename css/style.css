@@ -1,0 +1,102 @@
+:root{
+    --renk:#2E2F31; /* Buttonların Ana Rengi */
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.baslik{
+    background-color: gray;
+    color:white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 22px;
+}
+button.radio{
+    background-color: white;
+    border:1px solid var(--renk);
+    color:var(--renk);
+    font-size: 1rem;
+    padding: 10px 25px;
+    margin:1 3;
+    border-radius: 4px;
+}
+button.radio:hover{
+    background-color: var(--renk);
+    color:white;
+
+}
+.at{
+    background-color:#2E2F31;
+    color:white;
+    padding: 8px 8px;
+}
+
+.update{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: darkorange;
+    color:white;
+    padding: 10px 10px;
+    font-size: 17px;
+}
+.center{
+    text-align:  center;
+}
+div.menuler{
+    font-size: 50px;
+    background-color:#2E2F31;
+    border:1px solid black;
+    color: white;
+    width: 30rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    
+}
+#yazi{
+    font-size: 14px;
+}
+
+.newButton{
+    border:none;
+    padding: 4px 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    color:white;
+    background-color:#343a40; 
+}
+.newButton:hover{
+    border:1px solid #343a40;
+    color:#343a40;
+    background-color: white;
+}
+footer {
+    text-align: center;
+    margin: 2em auto 4em;
+    width: 100%;
+
+  }
+  footer a {
+    text-decoration: none;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px dashed #333;
+    color: #333;
+    margin: 5px;
+  }
+  footer a:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  footer a .icons {
+    margin-top: 12px;
+    display: inline-block;
+    font-size: 20px;
+  }
