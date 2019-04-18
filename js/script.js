@@ -36,7 +36,7 @@ function buttonlar(){
     var text = "", i;
     for (i = 0; i < radio.length; i++) {
       text += "<button class='radio' id='name' onclick='Clicks("+radio[i].id+")'>" + radio[i].name + "</button>";
-      if (i >= 8){
+      if (i == 7){
         text+="<br>"
       }
     }
