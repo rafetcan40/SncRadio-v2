@@ -63,5 +63,5 @@ function NeVeriyimAbime(ne){
 }
 
 function RadioLink(){
-  window.open("http://radyodelisi.blogspot.com/2011/11/turk-radyolari-guncel-ip-adresleri.html","_blank")
+  window.open("https://radyodelisi.blogspot.com/2019/01/turk-radyolari-2019-guncel-ip-adresleri.html","_blank")
 }
