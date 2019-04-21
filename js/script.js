@@ -58,9 +58,16 @@ function Clicks(tıklananID){
 }
 
 function NeVeriyimAbime(ne){
-  if (ne == "ileri"){ID++;Clicks(ID);}
-  else{ID--;Clicks(ID);}
-}
+  if (ID == null){
+	ID=0;
+	return NeVeriyimAbime(ne);
+	}
+  else {
+	if(ne == "ileri")
+		{ID++;Clicks(ID);}
+	else
+		{ID--;Clicks(ID);}
+}}
 
 function RadioLink(){
   window.open("https://radyodelisi.blogspot.com/2019/01/turk-radyolari-2019-guncel-ip-adresleri.html","_blank")
