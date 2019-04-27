@@ -12,7 +12,7 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <h4 class="at center">SncRadio Dark Edition</h4>
+    <h4 class="baslik center">SncRadio Dark Edition</h4>
     <div class="update" onclick="RadioLink()">Güncel Radio Listesi</div>
         <div id="buttonlar" class="container radios my-4"><script>buttonlar();</script>
         </div>
@@ -21,10 +21,11 @@
         <i id="pause" onclick="pause()" class="fas fa-pause"></i>
         <!-- <i class="fas fa-stop-circle"></i> -->
         <i onclick="NeVeriyimAbime('geri')" class="fas fa-backward"></i>
-        <i onclick="pause()" class="fas fa-volume-mute"></i>
+        <i onclick="mutes()" class="fas fa-volume-mute"></i>
         <i onclick="NeVeriyimAbime('ileri')" class="fas fa-forward"></i>
         <marquee id="yazi" direction=left>SncRadio v2</marquee>
     </div>
+    <p class="center" id="demo"></p>
     <footer>
         <a href="https://www.instagram.com/tiltx_" target="_blank"><i class="icon-social-instagram icons"></i></a>
         <a href="https://github.com/rafetcan40/SncRadio-v2" target="_blank"><i class="icon-social-github icons"></i></a>
